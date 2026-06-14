@@ -1,0 +1,6 @@
+# Optional config.yml for safety
+ALLOWLIST:
+  - example.com
+  - yourcompany.local
+# If ALLOWLIST is present and non-empty, run_recon will only run for allowed targets.
+

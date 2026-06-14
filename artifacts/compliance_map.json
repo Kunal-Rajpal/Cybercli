@@ -1,0 +1,54 @@
+{
+  "ISO27001": {
+    "A.12.6.1": {
+      "title": "Management of Technical Vulnerabilities",
+      "applies_to": [
+        "vuln",
+        "exploit",
+        "patch"
+      ]
+    },
+    "A.9.2.3": {
+      "title": "Privileged Access Management",
+      "applies_to": [
+        "privesc",
+        "credential",
+        "access"
+      ]
+    }
+  },
+  "SOC2": {
+    "CC7.2": {
+      "title": "Detection of Malicious Activity",
+      "applies_to": [
+        "exploit",
+        "malware",
+        "lateral"
+      ]
+    },
+    "CC6.6": {
+      "title": "Logical Access Controls",
+      "applies_to": [
+        "access",
+        "authentication"
+      ]
+    }
+  },
+  "PCI-DSS": {
+    "6.5": {
+      "title": "Secure Application Development",
+      "applies_to": [
+        "web",
+        "api",
+        "injection"
+      ]
+    },
+    "10.2": {
+      "title": "Audit Logs",
+      "applies_to": [
+        "logging",
+        "detection"
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+typer==0.9.0
+rich==13.7.1
+requests==2.31.0
+dnspython==2.6.1
+tldextract==3.4.0
+python-whois==0.8.0
+beautifulsoup4==4.12.3
+mmh3==3.0.0
+jinja2==3.1.2
+graphviz==0.20
+selenium==4.9.1
+matplotlib
+reportlab
+# Playwright is optional (install via bootstrap if you want full screenshoting)
+# playwright==1.37.0
+pyjwt
+python-dateutil
+colorama
+pyyaml
+
+
+# CyberCLI — AI-Powered VAPT Platform
+# Install: pip install -r requirements.txt
+
+# ── Core HTTP & Async ──────────────────────────────────────────────
+aiohttp>=3.9.0
+aiofiles>=23.0.0
+httpx>=0.25.0
+
+# ── CLI Framework ──────────────────────────────────────────────────
+typer[all]>=0.9.0
+rich>=13.0.0
+click>=8.1.0
+
+# ── Graph Engine ───────────────────────────────────────────────────
+networkx>=3.0
+pyvis>=0.3.2
+
+# ── Browser Automation (for DOM XSS, SPA crawling) ────────────────
+playwright>=1.40.0
+
+# ── PDF Report Generation ──────────────────────────────────────────
+# weasyprint>=60.0    # Uncomment if PDF reports needed
+
+# ── Optional: Neo4j Export ─────────────────────────────────────────
+# neo4j>=5.0.0        # Uncomment for Neo4j attack graph export
+
+# ── Optional: Graphviz ─────────────────────────────────────────────
+# graphviz>=0.20.0    # Uncomment for Graphviz PNG export
+

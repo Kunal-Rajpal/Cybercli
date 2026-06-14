@@ -1,0 +1,64 @@
+{
+  "T1190": {
+    "technique": "Exploit Public-Facing Application",
+    "detect": [
+      "WAF logs",
+      "Web server access logs",
+      "API gateway anomaly alerts"
+    ],
+    "prevent": [
+      "WAF rules",
+      "Input validation",
+      "Patch management"
+    ],
+    "controls": [
+      "WAF",
+      "SIEM"
+    ]
+  },
+  "T1059": {
+    "technique": "Command Execution",
+    "detect": [
+      "EDR process telemetry",
+      "Shell spawn alerts"
+    ],
+    "prevent": [
+      "Application allowlisting",
+      "EDR blocking rules"
+    ],
+    "controls": [
+      "EDR"
+    ]
+  },
+  "T1003": {
+    "technique": "Credential Dumping",
+    "detect": [
+      "LSASS access alerts",
+      "Memory dump detection"
+    ],
+    "prevent": [
+      "Credential Guard",
+      "LSASS protection"
+    ],
+    "controls": [
+      "EDR",
+      "OS Hardening"
+    ]
+  },
+  "T1486": {
+    "technique": "Data Encryption / Exfiltration",
+    "detect": [
+      "File entropy anomalies",
+      "DLP alerts",
+      "Unusual outbound traffic"
+    ],
+    "prevent": [
+      "DLP enforcement",
+      "Network egress filtering"
+    ],
+    "controls": [
+      "DLP",
+      "NDR"
+    ]
+  }
+}
